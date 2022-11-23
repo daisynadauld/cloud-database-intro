@@ -1,6 +1,6 @@
 import './App.css';
 import { useState, useEffect } from 'react';
-import { firebase, db} from './firebaseConfig';
+import { firebase, database} from './firebaseConfig';
 import { QuerySnapshot } from 'firebase/firestore';
 import { collection, getDocs } from "firebase/firestore";
 
