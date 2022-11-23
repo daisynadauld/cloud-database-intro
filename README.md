@@ -2,7 +2,7 @@
 
 This project was a personal introduction to cloud databases. This is a web app that enables email and password authentication, and eventually displays information such as name and education of users from a firestore database.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.loom.com/share/25b7d4323f3d4e2e9322bafcc3319667)
 
 # Cloud Database
 
