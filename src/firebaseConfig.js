@@ -18,4 +18,12 @@ const firebaseConfig = {
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+export const database = getFirestore(app);
+
+// Get a list of cities from your database
+async function getCities(database) {
+    const usersCol = collection(database, 'Users');
+    const userSnapshot = await getDocs(usersCol);
+    const userList = userSnapshot.docs.map(doc => doc.data());
+    return userList;
+  }
